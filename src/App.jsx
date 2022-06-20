@@ -6,7 +6,7 @@ import { Header } from "./components/Layout/Header/Header";
 function App() {
   const [countries, setCountries] = useState([]);
   const [state, setState] = useState([]);
-  //  jrhuehd
+  let r = 333;
   useEffect(() => {
     const URL = "https://restcountries.com/v3.1/all";
     const req = fetch(URL);
